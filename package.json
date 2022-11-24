@@ -1,0 +1,12 @@
+{
+  "name": "fun_player",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:liudonghua123/fun_player.git",
+  "author": "liudonghua123 <liudonghua123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ffi-cross": "^5.0.11",
+    "ffi-napi": "^4.0.3"
+  }
+}
