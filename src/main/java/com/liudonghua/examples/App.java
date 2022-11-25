@@ -18,6 +18,11 @@ import javax.sound.midi.Sequencer;
 public class App {
 
     public static void main(String[] args) throws Exception {
+        // check whether the input file as cli arguments is specified
+        if (args.length < 1) {
+            System.out.println("Usage: ./app <midifile>");
+            System.exit(0);
+        }
         // Obtains the default Sequencer connected to a default device.
         Sequencer sequencer = MidiSystem.getSequencer();
         // Opens the device, indicating that it should now acquire any
